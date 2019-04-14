@@ -24,9 +24,9 @@ class UrlManager(object):
 
 if __name__== '__main__':
     um=UrlManager()
-    l=['aa','aasda','fasd']
-    um.add_url(l)
+    l=(['aa','aasda','fasd'])
+    um.add_urls(l)
     print(um.new_url,um.old_url)
     url=um.get_url()
     print(um.new_url,um.old_url)
-    print(um.has_url())
+    #print(um.has_url())
