@@ -15,3 +15,4 @@ def down_html(url:str, method='get', encoding='utf-8'):
         print(result.data.decode(encoding=encoding))
     else:
         return None
+
